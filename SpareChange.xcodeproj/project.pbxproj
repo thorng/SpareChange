@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3F6A34C11BADE1F000183D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A34C01BADE1F000183D91 /* AppDelegate.swift */; };
-		3F6A34C31BADE1F000183D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A34C21BADE1F000183D91 /* ViewController.swift */; };
+		3F6A34C31BADE1F000183D91 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A34C21BADE1F000183D91 /* ChooseViewController.swift */; };
 		3F6A34C61BADE1F000183D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A34C41BADE1F000183D91 /* Main.storyboard */; };
 		3F6A34C81BADE1F000183D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A34C71BADE1F000183D91 /* Assets.xcassets */; };
 		3F6A34CB1BADE1F000183D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A34C91BADE1F000183D91 /* LaunchScreen.storyboard */; };
 		3F6A34D61BADE1F100183D91 /* SpareChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A34D51BADE1F100183D91 /* SpareChangeTests.swift */; };
 		3F6A34E11BADE1F100183D91 /* SpareChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A34E01BADE1F100183D91 /* SpareChangeUITests.swift */; };
+		3F6A34EF1BADECC000183D91 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A34EE1BADECC000183D91 /* DonateViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		3F6A34BD1BADE1F000183D91 /* SpareChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpareChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6A34C01BADE1F000183D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F6A34C21BADE1F000183D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F6A34C21BADE1F000183D91 /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
 		3F6A34C51BADE1F000183D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F6A34C71BADE1F000183D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6A34CA1BADE1F000183D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		3F6A34DC1BADE1F100183D91 /* SpareChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpareChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6A34E01BADE1F100183D91 /* SpareChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpareChangeUITests.swift; sourceTree = "<group>"; };
 		3F6A34E21BADE1F100183D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6A34EE1BADECC000183D91 /* DonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				3F6A34C01BADE1F000183D91 /* AppDelegate.swift */,
-				3F6A34C21BADE1F000183D91 /* ViewController.swift */,
+				3F6A34C21BADE1F000183D91 /* ChooseViewController.swift */,
+				3F6A34EE1BADECC000183D91 /* DonateViewController.swift */,
 				3F6A34C41BADE1F000183D91 /* Main.storyboard */,
 				3F6A34C71BADE1F000183D91 /* Assets.xcassets */,
 				3F6A34C91BADE1F000183D91 /* LaunchScreen.storyboard */,
@@ -192,6 +195,7 @@
 				TargetAttributes = {
 					3F6A34BC1BADE1F000183D91 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GHPL4SN6Q2;
 					};
 					3F6A34D01BADE1F000183D91 = {
 						CreatedOnToolsVersion = 7.0;
@@ -255,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6A34C31BADE1F000183D91 /* ViewController.swift in Sources */,
+				3F6A34C31BADE1F000183D91 /* ChooseViewController.swift in Sources */,
+				3F6A34EF1BADECC000183D91 /* DonateViewController.swift in Sources */,
 				3F6A34C11BADE1F000183D91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,10 +401,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SpareChange/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = timothyhorng.SpareChange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -407,10 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SpareChange/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = timothyhorng.SpareChange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
