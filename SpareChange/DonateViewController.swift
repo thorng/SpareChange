@@ -10,7 +10,9 @@ import UIKit
 
 class DonateViewController: UIViewController {
 
-    @IBOutlet weak var donateButton: UIButton!
+    @IBOutlet weak var totalAmountDonatedLabel: UILabel!
+    
+    var totalAmountDonated = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +27,9 @@ class DonateViewController: UIViewController {
     
     @IBAction func donateButtonPressed(sender: UIButton) {
         
+        totalAmountDonated++
+        
+        totalAmountDonatedLabel.text = "Total: \(totalAmountDonated) cents"
         print("button pressed :3")
         
     }
