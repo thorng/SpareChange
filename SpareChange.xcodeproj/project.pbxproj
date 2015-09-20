@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3F33551BAE395F008B444A /* CardsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F33541BAE395F008B444A /* CardsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		3F6A34C11BADE1F000183D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A34C01BADE1F000183D91 /* AppDelegate.swift */; };
 		3F6A34C31BADE1F000183D91 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A34C21BADE1F000183D91 /* ChooseViewController.swift */; };
 		3F6A34C61BADE1F000183D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A34C41BADE1F000183D91 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F3F33541BAE395F008B444A /* CardsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsTableViewController.swift; sourceTree = "<group>"; };
 		3F6A34BD1BADE1F000183D91 /* SpareChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpareChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6A34C01BADE1F000183D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F6A34C21BADE1F000183D91 /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				3F6A34C01BADE1F000183D91 /* AppDelegate.swift */,
 				3F6A34C21BADE1F000183D91 /* ChooseViewController.swift */,
 				3F6A34EE1BADECC000183D91 /* DonateViewController.swift */,
+				3F3F33541BAE395F008B444A /* CardsTableViewController.swift */,
 				3F6A34C41BADE1F000183D91 /* Main.storyboard */,
 				3F6A34C71BADE1F000183D91 /* Assets.xcassets */,
 				3F6A34C91BADE1F000183D91 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6A34C31BADE1F000183D91 /* ChooseViewController.swift in Sources */,
+				3F3F33551BAE395F008B444A /* CardsTableViewController.swift in Sources */,
 				3F6A34EF1BADECC000183D91 /* DonateViewController.swift in Sources */,
 				3F6A34C11BADE1F000183D91 /* AppDelegate.swift in Sources */,
 			);
@@ -492,6 +496,7 @@
 				3F6A34E71BADE1F100183D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F6A34E81BADE1F100183D91 /* Build configuration list for PBXNativeTarget "SpareChangeTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				3F6A34EA1BADE1F100183D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F6A34EB1BADE1F100183D91 /* Build configuration list for PBXNativeTarget "SpareChangeUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +514,7 @@
 				3F6A34ED1BADE1F100183D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
